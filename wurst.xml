@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author>Unbekannt</author>
+        <editor>
+          <forename>Alan</forename>
+          <surname>Riedel</surname>
+          <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q110292488</idno>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2022-01-14</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+            <name>Alan Riedel</name>
+        </publisher>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+         <msIdentifier>
+          <settlement>Heidelberg</settlement>
+          <repository>Universitätsbibliothek</repository>
+          <idno>Cod. Pal. germ. 555, 216v</idno>
+         </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Transkription eines Wurstrezepts zur künftigen Zubereitung.</p>
+        </projectDesc>
+        <editorialDecl>
+            <p>Übertragung folgt keinen festen Editionsrichtlinien. :P</p>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+        <keywords>
+           <term>Rezept</term>
+        </keywords>
+     </textClass>
+        <langUsage>
+            <language ident="de">German</language>
+        </langUsage>
+        <creation>
+            <date when="1565"></date>
+        </creation>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2021-01-16">(alan) created file</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="https://digi.ub.uni-heidelberg.de/diglit/cpg555/0440"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="head" n="1">
+        <p>gutte Brattwurst genant</p>
+        <p>Saussiesse zu beraitten</p>
+      </div>
+      <div n="2">
+        <p>nim[m] von ainem Jungen lustigen Schwein</p>
+        <p>Flaisch, hack d[a]s fein klain. thu darin</p>
+        <p>gestossen gewurzt imber pfeffer vnd</p>
+        <p>muschkattnus. auch salz. Darnach das</p>
+        <p>laisch vil ist. vnd ain weinig wein</p>
+        <p>oder Essig dar under an statt des wasser</p>
+        <p>rurs durch ain ander. vnd fuls</p>
+        <p>in kleine l????<note place="foot" xml:id="ftn1" n="1">
+            <p rend="footnote text"> Unleserlich. Gemeint sind sicherlich die Wursthüllen.</p>
+          </note> dann. darnach so</p>
+        <p>nim[m] gemachte wurst. thu dis in ain</p>
+        <p>pfannen mit ainem weinig wein</p>
+        <p>vnd wasser uber das feur. vnd</p>
+        <p>Lass ain halb stund sieden, als</p>
+        <p>dan[n] so leg die wurst auff den</p>
+        <p>Rost. Lass dis auff baiden seÿtten</p>
+        <p>fein ab rustnen(?). vnd nimb dis Bauch<note place="foot" xml:id="ftn2" n="2">
+            <p rend="footnote text"> Gemeint ist wohl der Topf, in dem die Würste gekocht worden sind. Vgl. "bauchen" in https://www.digitale-sammlungen.de/de/view/bsb10584316?page=70,71.</p>
+          </note>
+        </p>
+        <p>darinn dis wurst gesotten. thu ain</p>
+        <p>weinig imber vnd gestossen zim[m]ett vnd</p>
+        <p>negellin darin. auch ain weinig gesotten</p>
+        <p>wein oder zucker. vnd ain ???plin<note place="foot" xml:id="ftn3" n="3">
+          <p rend="footnote text"> unklar: Es handelt sich vermutlich um ein altes Maß (der Reichsstadt Esslingen?).</p>
+          </note> Essig</p>
+        <p>Darmit das bauchlin fain biezlecht(?)<note place="foot" xml:id="ftn4" n="4">
+          <p rend="footnote text"> "bizeln: auf der Zunge beißen"</p>
+          <p rend="footnote text">https://www.digitale-sammlungen.de/de/view/bsb10584316?page=92,93.</p>
+          </note> werd</p>
+        <p>vnd lass mit ain ander steden. als dan[n]</p>
+        <p>so nim[m] die wurst * rost vnd legs</p>
+          <p><note place="left">*vom</note> in die Blatt<note place="foot" xml:id="ftn5" n="5">
+            <p rend="footnote text"> "Bezeichnung für verschiedene flache Gegenstände", Frühneuhochdeutsches Lexikon, http://fwb-online.de/go/blat.s.2n_1619663683, auch "Platte".</p>
+            </note>, vnd güss das zimmet</p>
+          <p>Bauchlin daruber. ist ain trefflich</p>
+          <p>gutt essen</p>
+        </div>
+      </body>
+    </text>
+  </TEI>
